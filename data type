@@ -1,0 +1,22 @@
+// SPDX-License-Identifier:GPL-30
+
+pragma solidity >=0.7.0 < 0.9.0; 
+
+contract lec2 { 
+    bool public a = true; 
+    bool public b = false; 
+    bool public c = true && false; 
+    bool public d = true == false; 
+
+    bytes4 public bt3 = 0x12345678; 
+    bytes public bt2 = "Hello";
+
+    address public addr = 0x9D7f74d0C41E726EC95884E0e97Fa6129e3b5E99;
+
+    bool public b1 = !true; 
+
+    int8 public it = 4; 
+    uint256 public it2 = 300;
+    //uint8 public it3 = 256; // 범위 넘어가서 TypeError: Type int_const 256 is not implicity convertible to expected type uint8.
+
+}
